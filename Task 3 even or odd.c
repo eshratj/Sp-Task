@@ -9,7 +9,7 @@ return 0;
 int main (){
 int x ;
 scanf ("%d",&x);
-isEven(x)? printf("Even\n") : printf("Odd\n");
+printf(isEven(x) ? "Even\n" : "Odd\n");
 return 0;
 
 }
